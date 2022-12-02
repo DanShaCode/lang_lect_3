@@ -9,6 +9,8 @@
 // Как вызвать?
 // Method1();
 
+
+
 //ВИД 2 ======================== НИЧЕГО НЕ ВОЗВРАЩАЮТ НО МОГУТ ПРИНИМАТЬ АРГУМЕНТЫ
 
 // void Method2(string msg)
@@ -30,6 +32,34 @@
 // }
 // Method567(msg: "Text", count: 4);
 
+
+
 //ВИД 3 ===================================== ЧТО-ТО ВОЗВРАЩАЮТ НО НИЧЕГО НЕ ПРИНИМАЮТ
 
-int 
+// int Method3()
+// {
+//     return DateTime.Now.Year;
+// }
+
+// int year = Method3();
+// Console.WriteLine(year);
+
+
+
+// 4 ВИД =================================== ЧТО-ТО ПРИНИМАЮТ И ЧТО-ТО ВОЗВРАЩАЮТ
+
+// string Method4(int count, string c)
+// {
+//     int i = 0;
+//     string result = String.Empty;
+
+//     while (i < count)
+//     {
+//         result = result + c;
+//         i++;
+//     }
+//     return result;
+// }
+
+// string res = Method4(10, "asdasd");
+// Console.WriteLine(res);
